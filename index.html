@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css?_v=20220808230748">
+	<title>Верстка «demo_markup»</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/Logo.svg" alt="logo"></a>
+				<div class="header__menu">
+					<ul class="header__teams">
+						<li class="header__team "><a href="#" class="header__link header-link__visited ">Главная</a></li>
+						<li class="header__team"><a href="#" class="header__link">О нас</a></li>
+						<li class="header__team"><a href="#" class="header__link">Мероприятия</a></li>
+						<li class="header__team"><a href="#" class="header__link">Новости</a></li>
+					</ul>
+					<div class="header__buttons header-button">
+						<a class="header-button__useful button__red button">
+							<img class="button-useful__img" src="img/slash.svg" alt="logo">Полезное
+						</a>
+						<button class="header-button__user button" type="button ">Личный кабинет</button>
+					</div>
+				</div>
+				<nav class="menu__burger">
+					<button type="button" class="menu__icon icon-menu"><span></span>
+					</button>
+					<div class="menu__body body-menu">
+						<div class="body-menu__container">
+							<ul class="body-menu__items">
+								<li class="body-menu__team "><a href="#" class="header__link">Главная</a></li>
+								<li class="body-menu__team"><a href="#" class="header__link">О нас</a></li>
+								<li class="body-menu__team"><a href="#" class="header__link">Мероприятия</a></li>
+								<li class="body-menu__team"><a href="#" class="header__link">Новости</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+
+				<!--<nav class="menu__burger">
+			<button type="button" class="menu__icon icon-menu"><span></span>
+			</button>
+			<div class="menu__body body-menu">
+				<div class="body-menu__container">
+					<ul class="body-menu__items">
+						<li class="body-menu__item spoller__item">
+							<div class="body-menu__text spoller__text">Username</div>
+							<a href="mailto:example@mail.com" class="body-menu__mail spoller__mail">example@mail.com</a>
+						</li>
+						<li class="body-menu__item spoller__item">
+							<div class="body-menu__favourite spoller__favourite">
+								<a href="#" class="body-menu__list spoller__list">Favourite projects</a>
+								<div class="body-menu__number spoller__number">21</div>
+							</div>
+							<a href="#" class="body-menu__list spoller__list">Profile settings</a>
+							<a href="#" class="body-menu__list spoller__list">Projects</a>
+						</li>
+						<li class="body-menu__item spoller__item">
+							<a href="#" class="body-menu__logout spoller__logout">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>-->
+
+
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__background">
+				<div class="page__container">
+					<div class="page__block">
+						<div class="page__preview">
+							<div class="page__title title">Заголовок</div>
+							<a href="#" class="page__button button__red button">Смотреть все мероприятия</a>
+						</div>
+						<div class="page__cards">
+							<div class="page__card card">
+								<a href="#" class="page__link">
+									<picture><source srcset="img/demo.webp" type="image/webp"><img class="card__img" src="img/demo.jpg" alt="image"></picture>
+									<div class="card__title">Вебинар "Построение бизнес-модели стартапа"</div>
+									<div class="card__date">2 и 4 сентября, 17:30-19:45</div>
+									<a href="#" class="card__link">Вебинар</a>
+								</a>
+							</div>
+							<div class="page__card card">
+								<a href="#" class="page__link">
+									<picture><source srcset="img/demo.webp" type="image/webp"><img class="card__img" src="img/demo.jpg" alt="image"></picture>
+									<div class="card__title">Вебинар "Построение бизнес-модели стартапа"</div>
+									<div class="card__date">2 и 4 сентября, 17:30-19:45</div>
+									<a href="#" class="card__link">Вебинар</a>
+								</a>
+							</div>
+							<div class="page__card card">
+								<a href="#" class="page__link">
+									<picture><source srcset="img/demo.webp" type="image/webp"><img class="card__img" src="img/demo.jpg" alt="image"></picture>
+									<div class="card__title">Вебинар "Построение бизнес-модели стартапа"</div>
+									<div class="card__date">2 и 4 сентября, 17:30-19:45</div>
+									<a href="#" class="card__link">Вебинар</a>
+								</a>
+							</div>
+							<div class="page__card card">
+								<a href="#" class="page__link">
+									<picture><source srcset="img/demo.webp" type="image/webp"><img class="card__img" src="img/demo.jpg" alt="image"></picture>
+									<div class="card__title">Вебинар "Построение бизнес-модели стартапа"</div>
+									<div class="card__date">2 и 4 сентября, 17:30-19:45</div>
+									<a href="#" class="card__link">Вебинар</a>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__blocktwo page__container-blocktwo">
+				<div class="page__title-blocktwo title">Заголовок</div>
+				<!-- Оболочка слайдера -->
+				<div class="box__slider swiper">
+					<!-- Двигающееся часть слайдера -->
+					<div class="box__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="box__slide swiper-slide ">
+							<div class="box__content box-content">
+								<div class="box-content__item">
+									<img class="box__img" src="img/money.svg" alt="money">
+									<div class="box__text">Бухгалтеры</div>
+								</div>
+							</div>
+						</div>
+						<!-- Слайд -->
+						<div class="box__slide swiper-slide ">
+							<div class="box__content box-content">
+								<div class="box-content__item">
+									<img class="box__img" src="img/money.svg" alt="money">
+									<div class="box__text">Бухгалтеры</div>
+								</div>
+							</div>
+						</div>
+						<!-- Слайд -->
+						<div class="box__slide swiper-slide ">
+							<div class="box__content box-content">
+								<div class="box-content__item">
+									<img class="box__img" src="img/money.svg" alt="money">
+									<div class="box__text">Бухгалтеры</div>
+								</div>
+							</div>
+						</div>
+						<!-- Слайд -->
+						<div class="box__slide swiper-slide ">
+							<div class="box__content box-content">
+								<div class="box-content__item">
+									<img class="box__img" src="img/money.svg" alt="money">
+									<div class="box__text">Бухгалтеры</div>
+								</div>
+							</div>
+						</div>
+						<!-- Слайд -->
+						<div class="box__slide swiper-slide ">
+							<div class="box__content box-content">
+								<div class="box-content__item">
+									<img class="box__img" src="img/money.svg" alt="money">
+									<div class="box__text">Бухгалтеры</div>
+								</div>
+							</div>
+						</div>
+						<!-- Слайд -->
+						<div class="box__slide swiper-slide ">
+							<div class="box__content box-content">
+								<div class="box-content__item">
+									<img class="box__img" src="img/money.svg" alt="money">
+									<div class="box__text">Бухгалтеры</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="red-pagination swiper-pagination"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<button type="button" class="swiper-button-prev"></button>
+					<button type="button" class="swiper-button-next"></button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">Подпись в подвале сайта</div>
+				<div class="footer__connect">Связаться и что-то уточнить по заданию: https://t.me/Kenny_Nobody</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220808230748"></script>
+</body>
+
+</html>
